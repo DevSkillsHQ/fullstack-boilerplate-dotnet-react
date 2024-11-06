@@ -1,27 +1,56 @@
-# Frontend Boilerplate (Angular)
+# React Project with Vite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.
+This project was bootstrapped with [Vite](https://vitejs.dev/), a modern frontend build tool, and uses [Vitest](https://vitest.dev/) for testing.
 
-## Development server
+## Available Scripts
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+In the project directory, you can run:
 
-## Code scaffolding
+### `npm start`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Runs the app in development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Build
+The page will automatically reload when you make changes.\
+You may also see any lint errors in the console.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### `npm run build`
 
-## Running unit tests
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Running end-to-end tests
+### `npm run serve`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Locally preview the production build.
 
-## Further help
+### `npm test`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Launches the test runner using Vitest.\
+See the section about [Vitest](https://vitest.dev/guide/) for more information.
+
+## Learn More
+
+To learn more about Vite, check out the [Vite documentation](https://vitejs.dev/).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+For testing with Vitest, refer to the [Vitest documentation](https://vitest.dev/guide/).
+
+### Vite Configuration
+
+You can customize the Vite configuration in the `vite.config.js` file. For more information, see the [Vite Config Reference](https://vitejs.dev/config/).
+
+### Deployment
+
+For information about deploying your Vite app, check out the [Vite Deployment Guide](https://vitejs.dev/guide/static-deploy.html).
+
+### Performance Optimization
+
+Vite is designed to be fast by default. However, for more advanced performance optimizations, refer to the [Vite Performance Guide](https://vitejs.dev/guide/performance.html).
+
+### Troubleshooting
+
+If you encounter any issues, check the [Vite Troubleshooting Guide](https://vitejs.dev/guide/troubleshooting.html) or the [Vitest Troubleshooting Guide](https://vitest.dev/guide/debugging.html).
